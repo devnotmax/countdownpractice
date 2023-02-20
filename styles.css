@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/background 2.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F2F4FF;
+    margin-top: 120px;
+}
+
+.maquina-de-escribir{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.maquinafx{
+    font-weight: bold;
+    display: flex;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 26ch;
+
+    animation: typing 2s steps(25),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F2F4FF;
+    font-size: 20px;
+}
+
+@keyframes typing{
+    from {width: 0;}
+}
+@keyframes blink {
+    50% { border-color: transparent;}
+}
+
+#cuenta{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.simply-section{
+    background: #F2F4FF;
+    width: 180px;
+    height: 90px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #454d66;
+}
+
+.simply-amount{
+    display: block;
+    font-size: 30px;
+}
+
+.simply-word{
+    font-size: 12px;
+    color: #A2A3BB;
+}
