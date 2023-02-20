@@ -20,22 +20,18 @@ h1{
 }
 
 .maquina-de-escribir{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    display: block;
 
 }
 .maquinafx{
     font-weight: bold;
-    display: flex;
+    display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 33ch;
+    width: 26ch;
 
-    animation: typing 2s steps(33),
-    blink .5s infinite step-end alternate;
+    animation: typing 2s steps(28),
+    blink .7s infinite step-end alternate;
     overflow: hidden;
     text-align: center;
     justify-content: center;
