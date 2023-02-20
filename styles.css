@@ -31,9 +31,9 @@ h1{
     display: flex;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 26ch;
+    width: 27ch;
 
-    animation: typing 2s steps(25),
+    animation: typing 2s steps(27),
     blink .5s infinite step-end alternate;
     overflow: hidden;
     text-align: center;
