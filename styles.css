@@ -20,12 +20,12 @@ h1{
 }
 
 .maquina-de-escribir{
-    display: block;
+    display: none;
 
 }
 .maquinafx{
     font-weight: bold;
-    display: block;
+    display: none;
     white-space: nowrap;
     border-right: 4px solid;
     width: 26ch;
@@ -76,4 +76,13 @@ h1{
 .simply-word{
     font-size: 12px;
     color: #A2A3BB;
+}
+
+.title-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F2F4FF;
+    font-size: 25px;
 }
